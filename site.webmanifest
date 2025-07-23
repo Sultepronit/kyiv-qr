@@ -1,5 +1,5 @@
 {
-  "name": "Kyiv QR",
+  "name": "Сам собі QR",
   "short_name": "Kyiv QR",
   "icons": [
     {
@@ -30,6 +30,6 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFFFFF",
-  "theme_color": "#00B36B",
-  "description": "App for simulating QR-code for fare payment in Kyiv transport."
+  "theme_color": "#008f0c",
+  "description": "App for simulating QR-code of fare payment in Kyiv transport."
 }
