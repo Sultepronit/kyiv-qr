@@ -1,0 +1,30 @@
+label, button {
+    display: block;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+input, button {
+    font: inherit;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: 15vh auto;
+}
+
+.number {
+    width: 5.5em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+button {
+    margin: 0.3em;
+    /* color: #008f0c */
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#008f0c" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="/style.css">
+    <title>Сам собі QR</title>
+    <script type="module" src="/script.js"></script>
+</head>
+<body>
+    <form class="form" id="form">
+        <div>
+            <label><input type="radio" name="type" value="3" required> автобус</label>
+            <label><input type="radio" name="type" value="2"> тролейбус</label>
+            <label for="number">бортовий номер:</label>
+        </div>
+        
+        <input type="number" name="bort-number" class="number" id="number" required>
+
+        <button id="transfer" type="submit">Оплатити</button>
+    </form>
+</body>
+</html>
